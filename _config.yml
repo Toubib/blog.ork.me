@@ -21,6 +21,12 @@ defaults:
       lang: en
   -
     scope:
+      path: _drafts/en
+    values:
+      layout: default
+      lang: en
+  -
+    scope:
       path: _posts/fr
     values:
       layout: default
