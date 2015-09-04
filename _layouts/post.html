@@ -7,6 +7,32 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
+    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+    {% assign post_count = posts|size %}
+    {% if post_count != 1 %}
+
+      {% case page.lang %}
+        {% when 'fr' %}
+        <span>Traduction disponible: </span>
+        {% when 'en' %}
+        <span>Available translation: </span>
+      {% endcase %}
+
+      <ul class="lang-selector">
+      {% for post in posts %}
+
+        {% if post.lang == page.lang %}
+          {% continue %}
+        {% endif %}
+
+        <li class="lang-selector">
+          <a href="{{ post.url }}" class="{{ post.lang }}"><img src="/pub/{{ post.lang }}.png" /></a>
+        </li>
+
+      {% endfor %}
+      </ul>
+    {% endif %}
+
   <article class="post-content">
     {{ content }}
   </article>

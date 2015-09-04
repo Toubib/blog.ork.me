@@ -30,13 +30,5 @@
 
   </div>
 
-    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
-    <ul>
-    {% for post in posts %}
-        <li class="lang">
-            <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-        </li>
-    {% endfor %}
-    </ul>
 
 </header>
