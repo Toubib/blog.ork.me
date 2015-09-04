@@ -1,0 +1,27 @@
+# Site settings
+title: Ork me
+email: vincent@ork.me
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.ork.me" # the base hostname & protocol for your site
+twitter_username:
+github_username: Toubib
+
+# Build settings
+markdown: kramdown
+
+permalink: /:title/
+
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: en
+  -
+    scope:
+      path: _posts/fr
+    values:
+      layout: default
+      lang: fr
