@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "read Oracle statspack with vim"
+title:  "Oracle statspack vim syntax highlighting"
 date:   2015-01-19 23:51:27
 name: vim-oracle-statpack
 ---
