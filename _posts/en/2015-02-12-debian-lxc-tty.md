@@ -24,7 +24,7 @@ This init script resolve the issue:
 
 /etc/init.d/fix-ptmx-perm
 
-~~~bash
+{% highlight bash %}
 
 #! /bin/sh
 
@@ -40,7 +40,7 @@ This init script resolve the issue:
 ### END INIT INFO
 
 chmod 666 /dev/ptmx
-~~~
+{% endhighlight %}
 
 To add it on boot:
 
