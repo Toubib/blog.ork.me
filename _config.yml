@@ -4,7 +4,7 @@ email: vincent@ork.me
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.ork.me" # the base hostname & protocol for your site
-twitter_username:
+twitter_username: toubiblag
 github_username: Toubib
 
 # Build settings
@@ -31,3 +31,6 @@ defaults:
     values:
       layout: default
       lang: fr
+
+gems:
+  - jekyll-gist
