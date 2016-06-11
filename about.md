@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-Hi, I'm Vincent, system engineer at [Orchestra](http://www.orchestra.eu).
+![Me](/pub/vincent.jpg) Hi, I'm Vincent, system engineer at [Orchestra](http://www.orchestra.eu).
