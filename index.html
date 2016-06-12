@@ -11,10 +11,16 @@ lang: en
   {% assign posts=site.posts | where:"lang", page.lang %}
   <ul class="post-list">
   {% for post in posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+      <li id="y{{currentdate}}">{{ currentdate }}</li>
+      {% assign date = currentdate %} 
+    {% endif %}
       <li>
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">{{ post.title }}</a>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="post-meta">{{ post.date | date: "%b %-d" }}</span>
       </li>
+
   {% endfor %}
   </ul>
 
