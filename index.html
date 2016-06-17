@@ -4,16 +4,16 @@ permalink: /
 lang: en
 ---
 
-<div class="home">
+<div class="home block-content">
 
-  <h1 class="page-heading">Posts</h1> 
+  <h1 class="page-heading">Latest posts</h1> 
 
   {% assign posts=site.posts | where:"lang", page.lang %}
   <ul class="post-list">
   {% for post in posts %}
     {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
-      <li id="y{{currentdate}}">{{ currentdate }}</li>
+      <li id="y{{currentdate}}" class="post-year">{{ currentdate }}</li>
       {% assign date = currentdate %} 
     {% endif %}
       <li>

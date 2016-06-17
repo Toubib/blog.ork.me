@@ -3,7 +3,7 @@ title: Ork me
 email: vincent@ork.me
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.ork.me" # the base hostname & protocol for your site
+url: "https://ork.me" # the base hostname & protocol for your site
 twitter_username: toubiblag
 github_username: Toubib
 
