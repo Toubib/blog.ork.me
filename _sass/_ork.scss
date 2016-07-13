@@ -38,3 +38,25 @@
   font-weight: bold;
   margin-top: 14px;
 }
+
+ul#header-contact-list li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+
+#profile {
+  background-color: #f0f0f0;
+  //border-radius: 9px;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 1em;
+}
+
+#profile-content {
+  /* max-width: calc(800px - (30px * 2)); */
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
