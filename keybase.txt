@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/toubib
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ork.me
+  * I am toubib (https://keybase.io/toubib) on keybase.
+  * I have a public key with fingerprint 7106 EBD3 09E2 F527 D037  EBF8 EEA4 6741 3BF5 6820
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ba12e3825f9cc271e0be663d226bed123534f050a7a6ef8f024c1c5ab860710e0a",
+            "fingerprint": "7106ebd309e2f527d037ebf8eea467413bf56820",
+            "host": "keybase.io",
+            "key_id": "eea467413bf56820",
+            "kid": "0101ba12e3825f9cc271e0be663d226bed123534f050a7a6ef8f024c1c5ab860710e0a",
+            "uid": "08df19ba6adde4c5ba55bed76188e619",
+            "username": "toubib"
+        },
+        "service": {
+            "hostname": "ork.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1478255853,
+    "expire_in": 157680000,
+    "prev": "cc84bfec1660b940e5284133ed805f77f75a82ef674d501b6ecfe84171b06491",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMIdAnicrVJZSFVBGL63bJOC9sjKYqggMps5y8y5t4IgKI2EoCSL6nbmzH9uJ+2e
+6zlHbVGIXoyofBDbKCjaoF6CjDai1TZBg8pUkB4qMmixzVapOVZvPTYvM/PN933/
+/3/MzSF9I5nRTZ+n59/qGJgbbbxWUxYpGi9eb0bcFRtRfDMqht4NSgT4QaLYESiO
+MMGEm0QB1VB0O2ZZCiOAOVCqCkWhHARRVF3VbKxjk5kUbMPGimYRSze5QTEjGLCJ
+cpDtpJLgpT0nFUhbCVPgQsUxUGxdYQKrDLhtAJgaZRpRua1TQ8FSuNb1Q4Vsjps+
+5DquxOQl0dveP/j/ue+y33aGsEmMm9QUAjRL56auSw9GiWEAJbGQ6IOXMteDZAdu
+GXc4qspBEit3LAhjDef48+56xbnykIPSnhu4llsisbVBkPbjoSbYmA5JFcATf+QJ
+7qSEzE8qysHzHTeF4kQyrcAJ/YjG5JC6oas5CDakHQ8STsjQGTWwXGEdKJeWlmVo
+3AaLUIp5TMOgK4bMTgVhYN1mzGa6aShgy0SFLvOjYNkgGYxwTLUYQeFApSkXxWWl
+wExKS99JpsygzANUdf3qyoxINDPSv1+f8F9FMgcN/fvbknUDesb7as9E8bOUrXtx
+IG/CypPDV306cWHX4PW3C66fyuZ3G9Hel0crRnZmf6zpvt81YWr7mrlZJxux973n
+/fOspbWoy8rYezBdPWIyMp5Ozlww78kSuuNCwyKrYMyeNxXHjB9L25qOTrpU+GB/
+y+J3rUcaChtOJNiVKnM7rZyfX/khq3jL8nEXj33bea2jun3bvhnNOJK3+m199Nmr
+3UeaV3w91HY8b9jx+pJ29uRm4mzraBGca5nT9CgDpp2pXZd+fX5W5ULR6SQLuq5E
+Cj83Pb6953nnkGh07KOCwfe2knuH/Vc3qvPXtF8uujrl9LLu/Wy2nzpUd6dj5q3T
+g76MelgaFwe1nqpfksFEJg==
+=1mcH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/toubib
+
+==================================================================
